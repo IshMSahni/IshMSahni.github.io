@@ -1,4 +1,32 @@
 /* Magnific Popup CSS */
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
 .mfp-bg {
   top: 0;
   left: 0;
@@ -232,6 +260,7 @@ button::-moz-focus-inner {
   height: 0;
   overflow: hidden;
   padding-top: 56.25%; }
+
   .mfp-iframe-scaler iframe {
     position: absolute;
     display: block;
