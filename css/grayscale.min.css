@@ -4,6 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+@font-face {
+    font-family: 'marzow00-regularregular';
+    src: url('font/marzo_w00_regular-webfont.woff2') format('woff2'),
+         url('font/marzo_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -47,13 +56,13 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
+    padding: 0.25rem 0;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 0.5rem 0.5rem;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
@@ -70,7 +79,7 @@
   }
   #mainNav.navbar-shrink .nav-link {
     color: #FFFFFF;
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: .75rem .75rem 0.75rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
@@ -101,7 +110,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'marzow00-regularregular';';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -464,6 +473,8 @@ header .overlay {
 #portfolio2 .container-fluid .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
+
+
 
 #portfolio2 .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
