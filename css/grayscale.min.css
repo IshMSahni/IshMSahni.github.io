@@ -372,7 +372,6 @@ header .overlay {
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
-  background: black;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
@@ -396,7 +395,7 @@ header .overlay {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(85,172,238, 0.5);
+  background-color: black;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
