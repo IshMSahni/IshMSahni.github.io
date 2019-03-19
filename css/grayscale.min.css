@@ -400,7 +400,7 @@ header .overlay {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background-color: black;
+  background-color: rgba(85,172,238, 0.75);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
@@ -453,7 +453,7 @@ header .overlay {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(85,172,238, 0.5);
+  background: rgba(85,172,238, 0.75);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
