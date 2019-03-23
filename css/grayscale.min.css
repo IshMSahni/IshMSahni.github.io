@@ -65,7 +65,7 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: rgba(0, 0, 0,0.);
+    background-color: rgba(0, 0, 0,0.7);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #FFFFFF;
