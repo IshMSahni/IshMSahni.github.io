@@ -626,7 +626,7 @@ pre code {
 .col-lg-82{
   position: relative;
   width: 100%;
-  padding-right: 15px;
+  padding-right: 0px;
   padding-left: 0px;
 }
 
@@ -1236,8 +1236,8 @@ pre code {
   }
     .col-lg-82 {
     -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .col-lg-9 {
     -ms-flex: 0 0 75%;
@@ -8419,7 +8419,7 @@ button.bg-dark:focus {
 }
 .mr-auto,
 .mx-auto2 {
-  margin-right: auto !important;
+  margin-right: 0 !important;
 }
 
 @media (min-width: 576px) {
