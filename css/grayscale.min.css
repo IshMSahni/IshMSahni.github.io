@@ -174,8 +174,7 @@
 
 .about-section2 {
   padding-top: 0rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/MPTI5.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/MPTI5.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   min-height: 800px;
   padding-bottom: 2rem;
@@ -240,8 +239,7 @@
 
 .about-section {
   padding-top: 0rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/MPTI5.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/MPTI5.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   min-height: 800px;
   padding-bottom: 2rem;
