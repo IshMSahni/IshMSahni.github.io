@@ -6233,6 +6233,8 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  width: 650px;
+  height: 350px;
 }
 
 .carousel.pointer-event {
@@ -6242,7 +6244,6 @@ a.close.disabled {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -6275,6 +6276,10 @@ a.close.disabled {
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+}
+
+.carousel-inner img {
+  margin: auto;
 }
 
 .carousel-item-next:not(.carousel-item-left),

@@ -86,6 +86,21 @@
     border-bottom: 0.25rem solid #073354;
   }
 }
+a.morelink:link {color: white; TEXT-DECORATION: none}
+a.morelink:visited {color: #f5f5dc; TEXT-DECORATION: none}
+a.morelink:active {color: red; TEXT-DECORATION: none}
+a.morelink:hover {color: rgba(255,255,255,0.8); TEXT-DECORATION: none}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+      font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .masthead {
   position: fixed;
@@ -241,7 +256,7 @@
   padding-top: 0rem;
   background-color: black;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 400px;
   padding-bottom: 2rem;
 }
 
@@ -443,6 +458,7 @@ header .overlay {
 #portfolio .container-fluid .portfolio-box {
   position: relative;
   display: block;
+
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
@@ -466,7 +482,7 @@ header .overlay {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background-color: rgba(85,172,238, 0.75);
+  background: rgba(85,172,238, 0.75);
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
