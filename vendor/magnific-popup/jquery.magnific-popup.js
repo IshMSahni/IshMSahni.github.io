@@ -815,9 +815,6 @@ MagnificPopup.prototype = {
 
 }; /* MagnificPopup core prototype end */
 
-
-
-
 /**
  * Public static functions
  */
