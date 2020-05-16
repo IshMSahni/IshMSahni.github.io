@@ -39,27 +39,33 @@
   background-color: transparent;
 }
 
+
+
+.navpad{padding-left: auto; align-self: right;}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
-    -webkit-transition: background-color 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
+    background-color: none;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: 0.25rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 3.2px 0;
+    color: rgba(0, 0, 255, 0.7);
+    align-self left;};
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    padding: 0.5rem 0.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 0.2rem 0.2rem;
+    
+    color: rgba(0, 0, 255, 0.7);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 255, 1);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -72,7 +78,7 @@
   }
   #mainNav.navbar-shrink .nav-link {
     color: #FFFFFF;
-    border-bottom: solid transparent;
+    border-bottom: none;
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #55ACEE;
@@ -83,8 +89,9 @@
   #mainNav.navbar-shrink .nav-link.active {
     color: #55ACEE;
     outline: none;
-    border-bottom: 0.25rem solid #073354;
+    border-bottom: 0rem solid #073354;
   }
+
 }
 a.morelink:link {color: white; TEXT-DECORATION: none}
 a.morelink:visited {color: #f5f5dc; TEXT-DECORATION: none}
@@ -142,7 +149,7 @@ a.morelink:hover {color: rgba(255,255,255,0.8); TEXT-DECORATION: none}
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1245px) {
   .masthead {
     height: 100vh;
     padding: 0;
@@ -171,7 +178,7 @@ a.morelink:hover {color: rgba(255,255,255,0.8); TEXT-DECORATION: none}
 }
 
 .btn-primary {
-  background-color: #55ACEE;
+  background-color: transparent;
 }
 
 .btn-primary:hover {
@@ -438,7 +445,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 100;
   z-index: 1;
 }
 
@@ -556,4 +563,47 @@ header .overlay {
 
 #portfolio2 .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
 }
