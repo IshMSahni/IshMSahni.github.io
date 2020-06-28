@@ -45,7 +45,6 @@
 <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
 <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-
     <!-- Plugin CSS -->
 
 <script src="readmore/readmore.min.js"></script>
@@ -57,7 +56,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container" style="padding: 0px; margin: 0px; max-width: 100%">
       <!-- For <a> tag below if you want this as a button class="navbar-brand js-scroll-trigger" href="#page-top"--> 
-        <img src="logo.png" class="navbar-brand mr-auto" style="height: 100%; width: 112px; position: relative; font-family: 'Montserrat'; font-weight: 600; font-size: 14px">
+        <img src="logo.png" class="navbar-brand mr-auto" style="height: 100%; width: 112px; position: relative; padding-left: 0px;">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -68,30 +67,39 @@
             <a class="nav-link js-scroll-trigger hvr-underline-from-left" href="#page-top">Home</a>
           </li>
           <li class="nav-item" style="margin-right: 20px;">
-            <a class="nav-link js-scroll-trigger hvr-underline-from-left" href="#about2">Services We Offer</a>
+            <a class="nav-link js-scroll-trigger hvr-underline-from-left" type="button" onclick="myFunction()">Book Now</a> 
+<script>
+function myFunction() {
+  if (confirm("                    BLURRY MANE BARBERSHOP COVID-19 NOTICE \n\nClients will NOT be serviced if they fail to comply with the Toronto Public Health Standards: \n    Being in close contact with someone who is sick or has been\n    confirmed with Covid-19 in the past 14 days. \n    Returned from travel outside Canada in the past 14 days. \n    Experiencing the following symptoms: Fever, Cough, Shortness \n    of breath, Headache, Sore Throat, Loss of Taste or Smell. \n \nAlso, Clients MUST wear a mask and hand sanitizer must be applied upon arrival. Arriving with additional guests will NOT be allowed (Friends, Partners, and Children). \n                    IMPORTANT NOTE! \n\nBeard services will not performed until further notice and appointment times are extended to ensure sanitation and prices will reflect. \n \n By pressing 'Ok' you are accepting all the rules set in place at this facility during this pandemic. \n \n \n LMK if this is good or if you want a custom button.")) {
+    window.open("https://booksy.com/en-ca/instant-experiences/widget/809?instant_experiences_enabled=true&ig_ix=true");
+  } else {
+    return;
+  }
+}
+</script>
           </li>
           <li class="nav-item" style="margin-right: 20px;">
-            <a class="nav-link js-scroll-trigger hvr-underline-from-left" href="#portfolio">Our Projects</a>
+            <a class="nav-link js-scroll-trigger hvr-underline-from-left" href="store.html">Our Store</a>
           </li>
           <li class="nav-item" style="margin-right: 20px;">
             <a class="nav-link js-scroll-trigger hvr-underline-from-left" href="references.html">Contact Us</a>
           </li>
          </ul>
-         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mr-auto"  style="padding-left: 10px;">
-            <a href="" class="mx-2" target="_blank">
+         <ul class="navbar-nav ml-auto" style="margin-right: 0px;">
+          <li class="nav-item"  style="padding-left: 10px;">
+            <a href="" class="mx-2" target="https://www.instagram.com/blurrymane/">
               <i class="nav-link js-scroll-trigger fab fa-instagram" style="padding-bottom: 0rem; padding-top: 0rem;"></i>
             </a>
           </li>
           <li class="nav-item"  style="padding-left: 10px;">
-            <a href="" class="mx-2" target="_blank">
-              <i class="nav-link js-scroll-trigger fab fa-facebook-square" style="padding-bottom: 0rem; padding-top: 0rem;"></i>
+            <a href="" class="mx-2" target="https://www.google.com/maps/dir//10+Hurontario+St,+Inglewood,+ON+L7C+0S8/@43.7736498,-79.9140104,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x882b10596c2c26f9:0x6c28527d5df06550!2m2!1d-79.878991!2d43.7735932">
+              <i class="nav-link js-scroll-trigger fas fa-map-marked-alt" style="padding-bottom: 0rem; padding-top: 0rem;"></i>
             </a>
-          </li>
+          <!--</li>
           <li class="nav-item"  style="padding-left: 10px;">  
             <a href="" class="mx-2" target="_blank">
               <i class="nav-link js-scroll-trigger fab fa-linkedin-in" style="padding-bottom: 0rem; padding-top: 0rem;"></i>
-            </a>
+            </a>-->
           </li>
         </ul>
       </div>
@@ -99,32 +107,60 @@
   </nav>
 
   <!-- Header -->
+<section id="masthead" class="about-section2" style="background-color: white; margin-left: auto; margin-right: auto; padding-top: 100px; max-height: 900px; height: auto;">
+  <div class="container" style="; max-width: 1200px; position: relative;">
+
+    <!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: auto; height: auto; z-index: 2">
+          <h1 class="lead mb-0 text-uppercase text-center" style=" z-index: 100000; vertical-align: top; position: absolute; font-size: 100%; color: black; font-weight: 600; line-height: 1rem; letter-spacing: 0.4rem; padding-top:5px;">Blurry Barbershop</h1>-->
+          <!--<div class="justify-content-center" style="position: absolute; top: 52vw; left: 37vw; z-index:112341423;">
+     <button onclick="myFunction()" class="btn btn-default pull-right" style="color: black; background-color: white;">Book Appointment</button>
+    <script>
+function myFunction() {
+  if (confirm("                    BLURRY MANE BARBERSHOP COVID-19 NOTICE \n\nClients will NOT be serviced if they fail to comply with the Toronto Public Health Standards: \n    Being in close contact with someone who is sick or has been\n    confirmed with Covid-19 in the past 14 days. \n    Returned from travel outside Canada in the past 14 days. \n    Experiencing the following symptoms: Fever, Cough, Shortness \n    of breath, Headache, Sore Throat, Loss of Taste or Smell. \n \nAlso, Clients MUST wear a mask and hand sanitizer must be applied upon arrival. Arriving with additional guests will NOT be allowed (Friends, Partners, and Children). \n                    IMPORTANT NOTE! \n\nBeard services will not performed until further notice and appointment times are extended to ensure sanitation and prices will reflect. \n \n By pressing 'Ok' you are accepting all the rules set in place at this facility during this pandemic. \n \n \n LMK if this is good or if you want a custom button.")) {
+    window.open("https://booksy.com/en-ca/instant-experiences/widget/809?instant_experiences_enabled=true&ig_ix=true");
+  } else {
+    return;
+  }
+}
+</script>
+                            </div>-->
+          <!--<p style="font-size: 12px; padding-bottom: 50px; color: black;">sublime repair pls This also doesnt have to be here its just here for whatever way you want it to be set up</p>-->
+          <!--<hr class="divider my-4">-->
 
 
-  <section id="masthead" class="about-section2" style="background-color: white; margin-left: auto; margin-right: auto; padding-top: 400px; marker-bottom:auto; height: 100vh;">
-      <div class="container h-100 " >
-    <div class="text-center">
-        <!--<h1 class="display-3 spfont">REHAN JAY MANICKAM</h1>
-        <h4 class="lead mb-0" style="font-size: 12px;">Pianist. Producer. Engineer.</h4>
-        <h4 >Marketing Strategist. Brand Manager.<h4">-->
-        	<!--text-uppercase text-white font-weight-bold-->
-          <h1 class="lead mb-0 mb-5 text-uppercase" style="font-size: 32px; color: black; font-weight: 300;">Blurry Barbershop</h1>
-          <p style="font-size: 12px; padding-bottom: 50px; color: black;">sublime repair pls This also doesnt have to be here its just here for whatever way you want it to be set up</p>
-          <hr class="divider my-4">
-        </div>
-        <div class="text-center">
-          <p class="text-white-75 font-weight-light mb-5"> </p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="position: relative; color: black;"> Click here to find out What we are all about</a>
-      </div>
-    </div>
-  </section>
+          <ol class="carousel-indicators" style="vertical-align: bottom; position: absolute;">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner justify-content-center" style="">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img\portfolio\fullsize\ny.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img\portfolio\fullsize\chicago.jpg" alt="Second slide" style="">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img\portfolio\fullsize\la.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img\portfolio\fullsize\in.jpg" alt="Third slide">
+          </div>
+     </div>
+   </div>
+   
+  </div> 
+</section>
+
 
     <!-- About Section -->
-  <section id="about" class="about-section text-center" style=" background-color: white; margin-top: 20rem;">
+  <section id="about" class="about-section text-center" style=" background-color: white; margin-top: 5rem;">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto" style="margin-top: 10px">
-          <h2 class=" display-5"  style="padding-top: 10px; color: black;">Who We Are</h2>
+          <h2 class=" display-5"  style="padding-top: 10px; color: black;">Youtube video or something about who we are lmk</h2>
                     <p style="padding-bottom: 10px; color: black;"></p>
           <p class=" lead mb-6" style="color: black;"> we can have this as an about thing if you want (we can shrink it but you would probably want to fill it up so more content will be helpful but its your choice, we can always change the spacing)</p>
           <div class="more" style="padding-bottom: 20px margin-bottom:10px;"> 
@@ -139,51 +175,132 @@
   </div></div>
 </section>
 
+
+<!--
 <section id="about2" class="about-section ml-auto" style="background-color: white; text-align: right; padding-right: 0px; ">
-    <div class="container ml-auto" style="margin-left: 0px; margin-right: 0px;"
+    <div class="container ml-auto" style="margin-left: 0px; margin-right: 0px;">
       <div class="row">
         <div class="col-lg-8 ml-auto" style=" padding-right: 0px; margin-right: 0px; flex: 100%; max-width: 98%; padding-top: 350px; padding-bottom: 350px;">
           <h2 class="display-5"  style="padding-top: 100px; color: black;">Services we offer</h2>
                    
           <p class="lead mb-6" style="color: black;">we can put a list of services in bullets or in any way you would like with any surrounding paragraphs<br>this space exists to show that the navigation bar works properly</p>
-         <!--
+         
         <h2 class="text-white mb-0">""</h2>
         <p class="text-white mb-0">Albert Einstein</p>
-        <p></p>-->
+        <p></p>
       </div>
     </div>
   </div>
 </section>
+-->
 
 
-   <!-- Portfolio Section -->
-  <section id="portfolio" class="contact-section justify-content-center" style="background-color: white;;" >
+
+    <!--Portfolio Section -->
+  <section id="portfolio" class="contact-section justify-content-center" style="background-color: white;" >
   		
-      <div class="justify-content-center" style="position: relative; margin-bottom: 5px; text-align: left; color: black;">
-      	<h1 class="display-5"  style="padding-top: -10px; text-align: left; padding-bottom: 10px;">Our Projects</h1>
-      				<p style="width: 100%;">We have two options to show off your pictures, we can either have a carousel as seen <a href="https://www.w3schools.com/bootstrap/bootstrap_carousel.asp">here</a> otherwise there is also a gallery like <a href="https://mdbootstrap.com/plugins/jquery/gallery/">this</a>(both of these are just examples and the gallery doesnt have to be tight like that it can be neatly aligned its just to show whether you want. Either it can be all at once or for people to scroll through.)</p>
-                    </div>
+      <div class="justify-content-center" style="position: relative; margin-bottom: 5px; color: black;">
+      	<h1 class="display-5"  style="padding-top: 10px; text-align: left; padding-bottom: 10px;">Our Projects</h1>
+      				<div class="container-fluid" style="max-width: fit-content;">
+  <div class="row" style="padding-bottom: 20px;">
+        <div class="col-sm-3" style="max-width: 300px;" >
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/1.png" alt="" style="">
+            
+            </div>
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/2.png" alt="">
+            
+            </div>
+        
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/3.png" alt="">
+            
+        </div>
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/4.png" alt="">
+          
+        </div>
+      </div>
+  <div class="row" style="padding-bottom: 20px;">
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/5.png" alt="">
+            
+            </div>
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/6.png" alt="">
+            
+            </div>
+        
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/7.png" alt="">
+            
+        </div>
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/8.png" alt="">
+          
+        </div>
+      </div>
+        <div class="row" style="padding-bottom: 20px;">
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/9.png" alt="">
+            
+            </div>
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/10.png" alt="">
+            
+            </div>
+        
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/11.png" alt="">
+            
+        </div>
+        <div class="col-sm-3" style="max-width: 300px;">
+          
+            <img class="img-fluid hvr-grow" src="img/portfolio/fullsize/12.png" alt="">
+          
+        </div>
+      </div>
+</div>
+</div><!--
           <div class="social d-flex justify-content-center" style="position: relative; margin-top: 1rem;  filter: invert(100%)">           
-        <a href="" class="mx-2" target="_blank">
+        <a href="" class="mx-2" target="https://www.instagram.com/blurrymane/">
           <i class="fab fa-instagram"></i>
         </a>
         <a href="" class="mx-2" target="_blank">
-          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-map-signs"></i>
         </a>
         <a href="" class="mx-2" target="_blank">
           <i class="fab fa-linkedin-in"></i>
         </a>
-      </div>  
-</section> 
+      </div>  -->
+</section>
 
 
-<!-- Contact Section -->
+<!-- Contact Section 
 
 
-  <!-- Footer -->
+  --><!-- Footer -->
   <section><footer class="bg-black small text-center text-white-50" style="padding-top: 5px; padding-bottom: 5px; position: relative;">
+    <div class="text-center text-white-50" >
+      <a href="https://www.google.com/maps/dir//10+Hurontario+St,+Inglewood,+ON+L7C+0S8/@43.7736498,-79.9140104,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x882b10596c2c26f9:0x6c28527d5df06550!2m2!1d-79.878991!2d43.7735932" style="line-height: 10px; padding-top: 10px;color: rgba(255,255,255, 0.5); text-decoration: none;">7900 Hurontario Street Unit #10, Brampton ON</a>
+      <p style="line-height: 10px; margin-top:7.5px;">number or email for business inquiries</p>
+      
+
     <div class="container">
-      Copyright location &copy; 
+
+    </div>
+       2020 Blurry Mane Barbershop&copy;
     </div>
   </footer></section>
 
